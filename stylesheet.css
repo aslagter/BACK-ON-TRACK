@@ -1,0 +1,268 @@
+body{
+    font-family: "dico-mono", mono;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body.home{
+    background-color: #ccffff;
+}
+
+body.duurzaamheid{
+    background-color: #edf6d3;
+}
+
+body.socialeduurzaamheid{
+    background-color: #eecddf;
+}
+
+p,
+ul li{
+    color: #a84667;
+    margin-top: 0;
+}
+
+.logo-container{
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: 8em;
+}
+
+.illustratie-fiets{
+    display: block;       
+    margin: 0 auto;       
+    height: 17em;  
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+.horizontale-lijn-1 {
+    border-top: 0.3em solid #a84667;
+    border-radius: 1.25em;
+}
+
+.horizontale-lijn-bottom-1 {
+    border-top: 0.3em solid #a84667;
+    border-radius: 1.25em;
+    margin-bottom: 6em; 
+}
+
+.over-ons{
+    font-size: 1.25em;
+    font-family: "dico mono","podium-soft-variable", sans-serif;
+    color: #00ac9e; 
+    margin-bottom: auto;
+}
+
+.image-row-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.recycle-logo, 
+.recycle-foto{
+    height: 12em;
+    border-radius: 1em;
+}
+
+.nav-bar-home {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX*/
+    z-index: 1000;               /*https://developer.mozilla.org/en-US/docs/Web/CSS/z-index*/
+}
+
+.nav-items-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5em;
+    border: 0.125em solid #00ac9e;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    background-color: #00ac9e;
+    margin: 0 ; 
+    margin-bottom: 1em;
+    text-align:left;
+    font-family:"podium-soft-variable","dico mono", sans-serif;
+    font-variation-settings: "wdth" 85;
+    letter-spacing: 0.10em;
+    font-weight: bolder;
+}
+
+.nav-items-home li a,
+.nav-items-home li a:link,
+.nav-items-home li a:visited,
+.nav-items-home li a:active,
+.nav-items-home li a:hover {
+    color: #ceece8; 
+    text-decoration: none ;
+} 
+
+.duurzaam-milieu-met-fietsen{
+    text-align: center;
+    font-family: "Podium-soft-variable","dico mono", sans-serif; 
+    font-weight: 900; 
+    font-size: 1.37em; 
+    color: #a4c42e; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em; 
+    text-shadow: 
+    0.063em 0.063em 0.125em #131313,  
+    0 0 0.625em #8ba42e,  
+    0 0 0.625em #b6da35,  
+    0 0 1.25em #8ba42e; 
+}
+
+.onderhoud,
+.duurzame-merken {
+    font-size: 1.25em;
+    font-family: "dico mono","podium-soft-variable", sans-serif;
+    color:#8ba42e;
+    margin-bottom: 0;
+
+}
+
+.horizontale-lijn-2{
+    border-top: 0.3em solid #b6da35;
+    border-radius: 1.25em;
+}
+
+.horizontale-lijn-bottom-2{
+    border-top: 0.3em solid #b6da35;
+    border-radius: 1.25em;
+    margin-bottom: 6em;
+}
+
+.recycle-werkplaats,
+.recycle-merken{
+    display: block;       
+    margin: 0 auto;       
+    height: 17em;
+    width: 20em;
+    border-radius: 1em;
+}
+
+.nav-bar-duurzaamheid {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX*/
+    z-index: 1000;               /*https://developer.mozilla.org/en-US/docs/Web/CSS/z-index*/
+}
+
+.nav-items-duurzaamheid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+    border: 0.125em solid #b6da35;
+    padding: 0.5em 2em;
+    background-color: #b6da35;
+    margin: 0; 
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: "podium-soft-variable", "dico mono", sans-serif;
+    font-variation-settings: "wdth" 85;
+    letter-spacing: 0.1em;
+}
+
+.nav-items-duurzaamheid li a,
+.nav-items-duurzaamheid li a:link,
+.nav-items-duurzaamheid li a:visited,
+.nav-items-duurzaamheid li a:active,
+.nav-items-duurzaamheid li a:hover {
+    color:#505f1a; 
+    text-decoration: none ;
+}
+
+.logo-container-hot-pink,
+.persoon-fiets {
+    height: 7.5em;
+    justify-content: flex-start;
+    border-radius: 1em;
+}
+
+.image-row-sd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+.sociale-duurzaamheid {
+    display: flex;
+    justify-content: center;
+    font-family: "podium-soft-variable", "dico mono", sans-serif;
+    font-variation-settings: "wdth" 100;
+    font-size:large;
+    color: #b22a75;
+}
+
+.recycle-team-6 {
+    display: block;       
+    margin: 0 auto;       
+    height: 17em;
+    border-radius: 1em;
+}
+
+.recycle-team{
+    font-size: 1.25em;
+    font-family: "dico mono","podium-soft-variable", sans-serif;
+    color:#b22a75;
+    margin-bottom: auto;
+}
+
+.sociale-duurzaamheid-tekst{
+    text-align: center;
+    font-family: "Podium-soft-variable","dico mono", sans-serif; 
+    font-weight: 900; 
+    font-size: 1.4em; 
+    color: #b22a75; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em; 
+    text-shadow: 
+    0.063em 0.063em 0.125em #232323,  
+    0 0 0.625em #b22a75,  
+    0 0 0.625em #b22a75,  
+    0 0 0.125em #b22a75; 
+}
+
+.nav-bar-sociale-duurzaamheid {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX*/
+    z-index: 1000;               /*https://developer.mozilla.org/en-US/docs/Web/CSS/z-index*/
+}
+
+.nav-items-sociale-duurzaamheid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5em;
+    border: 0.125em solid #b22a75;
+    padding: 0.5em 2em;
+    background-color: #b22a75;
+    margin: 0; 
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: "podium-soft-variable", "dico mono", sans-serif;
+    font-variation-settings: "wdth" 85;
+    letter-spacing: 0.10em;
+}
+
+.nav-items-sociale-duurzaamheid li a,
+.nav-items-sociale-duurzaamheid li a:link,
+.nav-items-sociale-duurzaamheid li a:visited,
+.nav-items-sociale-duurzaamheid li a:active,
+.nav-items-sociale-duurzaamheid li a:hover {
+    color:#eecedf; 
+    text-decoration: none ;
+}
